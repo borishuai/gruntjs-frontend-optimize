@@ -1,0 +1,44 @@
+/********** post list page ***********/
+.post-list {
+  border-bottom: 1px solid #c9cbca;
+  height: 80px;
+  padding: 20px 0;
+  width: 100%;
+  zoom: 1;
+}
+
+.post-list:last-child {
+  border-bottom: none;
+}
+
+.post-list_thumbnail {
+  width: 30%;
+}
+
+.post-list_image {
+  max-height: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.post-list_body {
+  width: 70%;
+}
+
+.post-list_title {
+  margin: 0 0 0.9em;
+  font-size: 0.9em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.post-list_excerpt {
+  display: -webkit-box;
+  font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

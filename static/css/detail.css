@@ -1,0 +1,19 @@
+/********** detail page ***********/
+.detail-title {
+  margin: 0;
+}
+
+.detail-sub_title {
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.detail-sub_title-name {
+  padding-right: 10px;
+}
+
+.detail-content {
+  font-size: 13px;
+}

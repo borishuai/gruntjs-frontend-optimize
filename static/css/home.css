@@ -1,0 +1,517 @@
+/********** home page ***********/
+.l-home {
+  background: no-repeat center top;
+  background-image:url('../images/home-bgd.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .l-home {
+    background-image:url('../images/home-bgd@2x.jpg');
+  }
+}
+/********** home swiper slider ***********/
+.swiper-container {
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.swiper-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition-property: -webkit-transform,left,top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px,0,0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: -moz-transform,left,top;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px,0,0);
+  -moz-transition-timing-function: ease;
+  -o-transition-property: -o-transform,left,top;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px,0,0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px,0);
+  -ms-transition-property: -ms-transform,left,top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px,0,0);
+  -ms-transition-timing-function: ease;
+  transition-property: transform,left,top;
+  transition-duration: 0s;
+  transform: translate3d(0px,0,0);
+  transition-timing-function: ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.swiper-slide {
+  float: left;
+  height: 100%;
+  padding-right: 3px;
+  opacity: .2;
+  -webkit-transform: translate3d(64px,0,0);
+}
+
+.swiper-item {
+  float: left;
+  width: 110px;
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
+}
+
+.swiper-item-name {
+  margin: 10px auto;
+  line-height: 30px;
+  height: 30px;
+  font-size: 18px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-icon {
+  background-color: rgba(242, 248, 250, 0.2); 
+  -moz-border-radius: 100%; 
+  -webkit-border-radius: 100%;
+  -o-border-radius: 100%; 
+  -ms-border-radius: 100%; 
+  border-radius: 100%;
+  margin-top: 60px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+
+.swiper-icon-inner {
+  width: 100%;
+}
+.largeicon {
+  height: 100px;
+  width: 100%;
+  background-image: url(../images/menu-bgd.png);
+  background-repeat: no-repeat;
+  background-size: 937.5px 760px;
+}
+
+.swiper-icon_download {
+  background-position: 10.9% 6%;
+}
+
+.swiper-icon_zixun {
+  background-position: 10.9% 12.6%;
+}
+
+.swiper-icon_huodong {
+  background-position: 10.9% 19.243%;
+}
+
+.swiper-icon_shipin {
+  background-position: 10.9% 25.8%;
+}
+
+.swiper-icon_gonglue {
+  background-position: 10.9% 32.4%;
+}
+
+.swiper-icon_shequ {
+  background-position: 10.9% 32.4%;
+}
+
+.swiper-icon_shangchen {
+  background-position: 10.9% 45.6%;
+}
+
+.swiper-icon_kefu {
+  background-position: 10.9% 52.3%;
+}
+
+.largeicon-style-1 {
+  background-position: 3% 4%;
+}
+
+.largeicon-style-2 {
+  background-position: 15% 4%;
+}
+
+.largeicon-style-3 {
+  background-position: 28% 4%;
+}
+
+.largeicon-style-4 {
+  background-position: 40% 4%;
+}
+
+.largeicon-style-5 {
+  background-position: 52% 4%;
+}
+
+.largeicon-style-6 {
+  background-position: 63% 4%;
+}
+
+.largeicon-style-7 {
+  background-position: 76% 4%;
+}
+
+.largeicon-style-8 {
+  background-position: 86% 4%;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    height: 400px;
+  }
+
+  .swiper-icon {
+    width: 70px;
+    height: 70px; 
+  }
+  .largeicon {
+    height: 250px;
+  }
+  .swiper-item {
+    width: 220px;
+  }
+
+  .swiper-icon_download {
+    background-position: 94.5% 3.4%;
+  }
+
+  .swiper-icon_zixun {
+    background-position: 95.5% 15.4%;
+  }
+
+  .swiper-icon_huodong {
+    background-position: 95.6% 29.2%;
+  }
+
+  .swiper-icon_shipin {
+    background-position: 95.6% 42.8%;
+  }
+
+  .swiper-icon_gonglue {
+    background-position: 95.6% 56.6%;
+  }
+
+  .swiper-icon_shequ {
+    background-position: 95.6% 69.9%;
+  }
+
+  .swiper-icon_shangchen {
+    background-position: 95.6% 83.9%;
+  }
+
+  .swiper-icon_kefu {
+    background-position: 95.6% 97.9%;
+  }
+  .largeicon-style-1 {
+      background-position: 5.5% 29%;
+  }
+
+  .largeicon-style-2 {
+    background-position: 33.5% 29%;
+  }
+
+  .largeicon-style-3 {
+    background-position: 64.5% 29%;
+  }
+
+  .largeicon-style-4 {
+    background-position: 96.5% 29%;
+  }
+
+  .largeicon-style-5 {
+    background-position: 1.5% 89%;
+  }
+
+  .largeicon-style-6 {
+    background-position: 31.5% 89%;
+  }
+
+  .largeicon-style-7 {
+    background-position: 64.5% 89%;
+  }
+
+  .largeicon-style-8 {
+    background-position: 99.5% 89%;
+  }
+}
+.swiper-item-download {
+  background-color: #155767;
+}
+
+.swiper-item-zixun {
+  background-color: #1b3258;
+}
+
+.swiper-item-huodong {
+  background-color: #3e221f;
+}
+
+.swiper-item-shipin {
+  background-color: #264c30;
+}
+
+.swiper-item-gonglue {
+  background-color: #155767;
+}
+
+.swiper-item-shequ {
+  background-color: #1b3258;
+}
+
+.swiper-item-shangchen {
+  background-color: #3e221f;
+}
+
+.swiper-item-kefu {
+  background-color: #264c30;
+}
+
+.swiper-icon-item {
+  background-image: url(../images/icon-sprites.png);
+  background-repeat: no-repeat;
+  background-size: 666px 717px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/********** home app menu ***********/
+.home-app {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transition: all .5s ease;
+  z-index: 2;
+}
+
+.home-app-img {
+  background: url('../images/icon-sprites.png') no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-animation: rotate 1s linear infinite;
+  -moz-animation: rotate 1s linear infinite;
+  -o-animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite;
+  background-size: 666px 717px;
+  background-position: 35.4% 39%;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-app {
+     width: 75px;
+     height: 75px;
+  }
+  .home-app-img {
+    background-position: 57% 64%;
+  }
+}
+@-webkit-keyframes rotate {
+  from {-webkit-transform: rotate(0deg)}
+  to {-webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes rotate {
+  from {-moz-transform: rotate(0deg)}
+  to {-moz-transform: rotate(359deg)}
+}
+@-o-keyframes rotate {
+  from {-o-transform: rotate(0deg)}
+  to {-o-transform: rotate(359deg)}
+}
+@keyframes rotate {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(359deg)}
+}
+
+
+
+.home-app_show {
+  top: 4%;
+  left: 10%;
+}
+
+.basketball-menu {
+  width :100%;
+  height: 40%;
+}
+
+.basketball-menu_info {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  top: 10%;
+  left: 10%;
+  -webkit-transform: scale(0);
+  transition: all .5s ease;
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+}
+
+
+.menu_lanxiu {
+  background-position: 35.5% 6.1%;
+  top: 0;
+  left: 75%;
+}
+
+.menu_lanxiu:hover{
+  background-position: 44.2% 6.1%;
+}
+
+.menu_duihua {
+  background-position: 35.5% 14%;
+  top: 25%;
+  left: 50%
+}
+
+.menu_duihua:hover{
+  background-position: 44.2% 14%;
+}
+
+.menu_shangcheng {
+  background-position: 35.5% 22%;
+  top: 50%;
+  left: 25%
+}
+
+.menu_shangcheng:hover{
+  background-position: 44.2% 22%;
+}
+
+.menu_jiulebu {
+  background-position: 35.5% 29.6%;
+  top: 75%;
+  left: 0;
+}
+
+.menu_jiulebu:hover{
+  background-position: 44.2% 29.6%;
+}
+
+.basketball_menu-item {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-image: url(../images/icon-sprites.png);
+  background-repeat: no-repeat;
+  background-size: 666px 661px;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .basketball_menu-item {
+    width: 70px;
+    height: 70px;
+  }
+  .menu_close {
+    background-position: 34.5% 5.5%;
+    top: 0;
+    left: 0;
+  }
+
+  .menu_close:hover{
+    background-position: 34.5% 5.5%;
+  }
+
+  .menu_lanxiu {
+    background-position: 57% 5.3%;
+    top: 0;
+    left: 75%;
+  }
+
+  .menu_lanxiu:hover{
+    background-position: 75.5% 5.3%;
+  }
+
+  .menu_duihua {
+    background-position: 57% 19.5%;
+    top: 25%;
+    left: 50%
+  }
+
+  .menu_duihua:hover{
+    background-position: 75.5% 19.5%;
+  }
+
+  .menu_shangcheng {
+    background-position: 57% 33.6%;
+    top: 50%;
+    left: 25%
+  }
+
+  .menu_shangcheng:hover{
+    background-position: 75.5% 33.6%;
+  }
+
+  .menu_jiulebu {
+    background-position: 57% 47.7%;
+    top: 75%;
+    left: 0;
+  }
+
+  .menu_jiulebu:hover{
+    background-position: 75.5% 47.7%;
+  }
+}
+.opened-nav {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+   -webkit-transform-origin: top left; 
+}
+
+.p-menu {
+  position: absolute;
+  color: #fff;
+  font-size: 0.9em;
+  white-space: nowrap; 
+}
+
+.p-menu-lanxiu {
+  top: 10%;
+  left: 100%;
+}
+
+.p-menu-duihua {
+  top: 35%;
+  left: 75%;
+}
+
+.p-menu-shangcheng {
+  top: 60%;
+  left: 50%;
+}
+
+.p-menu-jiulebu {
+  top: 85%;
+  left: 25%;
+}

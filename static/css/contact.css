@@ -1,0 +1,93 @@
+/********** contact page ***********/
+.l-contact {
+  padding: 20px 40px 0 40px;
+}
+
+.contact-item {
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 17px;
+  min-width: 215px;
+  padding: 10px;
+}
+
+.contact-icon {
+  border-right: 1px solid rgba(80, 80, 80, 0.3);
+  width: 25px;
+  height: 25px;
+  padding: 0 15px 0 5px;
+  background-image: url(../images/icon-sprites.png);
+  background-repeat: no-repeat;
+  background-size: 666px 717px;
+  display: block;
+  float: left;
+}
+
+.contact-info {
+  padding-left: 15px;
+}
+
+.contact-online {
+  background: #b381d5;
+}
+
+.contact-tel {
+  background: #22a75f;
+}
+
+.contact-qq {
+  background: #2e93b8;
+}
+
+.contact-qq-group {
+  background: #6fc6e5;
+}
+
+.contact-mail {
+  background: #d0c149;
+}
+
+.contact-weibo {
+  background: #e4573c;
+}
+
+.contact-qzone {
+  background: #dcbe29;
+}
+
+.contact-baidu {
+  background: #4943d2;
+  margin-bottom: 0;
+}
+
+.contact-icon_online {
+  background-position: 2.3% 6%;
+}
+
+.contact-icon_tel {
+  background-position: 2.3% 11.5%;
+}
+
+.contact-icon_qq {
+  background-position: 2.3% 17.5%;
+}
+
+.contact-icon_qq-group {
+  background-position: 2.3% 23%;
+}
+
+.contact-icon_mail {
+  background-position: 2.3% 28.6%;
+}
+
+.contact-icon_weibo {
+  background-position: 2.3% 34%;
+}
+
+.contact-icon_qzone {
+  background-position: 2.3% 40%;
+}
+
+.contact-icon_baidu {
+  background-position: 2.3% 45.5%;
+}

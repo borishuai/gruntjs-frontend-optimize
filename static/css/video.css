@@ -1,0 +1,26 @@
+/********** videp page ***********/
+.l-video {
+  background-color: #e7e7e7;
+}
+
+.video-item {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.video-content iframe {
+  width: 100% !important;
+}
+
+.video-info {
+  margin-left: 15px;
+}
+
+.video-title {
+  margin: 6px 0 0 0;
+}
+
+.video-date {
+  color: #838383;
+  font-size: 13px;
+}

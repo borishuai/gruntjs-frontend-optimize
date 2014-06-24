@@ -1,0 +1,205 @@
+/********** header section ***********/
+.page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.primary {
+  background: #070124;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+}
+
+.primary_title {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.primary_back,
+.primary_home {
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  width: 34px;
+  height: 34px;
+}
+
+.primary_back:hover,
+.primary_home:hover {
+  background: #12143a;
+}
+
+.primary_back {
+  left: 0px;
+}
+
+.primary_home {
+  right: 0px;
+}
+.primary-comm-img {
+  display: block;
+  background: url(../images/icon-sprites.png) no-repeat;
+  background-size: 666px 717px;
+  width: 30px;
+  height: 30px;
+}
+.primary_img_return {
+  background-position: 13.8% 62.5%;
+}
+
+.primary_img_menu {
+  background-position: 5% 62.5%;
+}
+
+.menu-modal {
+  background-color: #03000f;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.92;
+  overflow: scroll;
+  position: fixed;
+  top: 54px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.menu-item {
+  border-top: 1px solid #47464f;
+  line-height: 38px;
+  width: 100%;
+  height: 38px;
+}
+
+.menu-item-icon {
+  background-image: url(../images/icon-sprites.png);
+  background-repeat: no-repeat;
+  background-size: 666px 717px;
+  display: block;
+  width: 38px;
+  height: 38px;
+  float: left;
+  margin-left: 30%;
+}
+.menu-item:hover {
+  background: #fff no-repeat;
+}
+
+.menu-item:hover .menu-item-link {
+  color: #000;
+}
+
+.menu-item-home {
+  background-position: 25.9% 5.7%;
+}
+.menu-item:hover .menu-item-home {
+  background-position: 18.5% 5.7%;
+}
+
+.menu-item-download {
+  background-position: 25.9% 11.7%;
+}
+
+.menu-item:hover .menu-item-download {
+  background-position: 18.5% 11.7%;
+}
+
+.menu-item-zixun {
+  background-position: 25.9% 18.3%;
+}
+
+.menu-item:hover .menu-item-zixun {
+  background-position: 18.5% 18.3%;
+}
+
+.menu-item-huodong {
+  background-position: 25.9% 24.6%;
+}
+
+.menu-item:hover .menu-item-huodong {
+  background-position: 18.5% 24.6%;
+}
+
+.menu-item-shipin {
+  background-position: 25.9% 31%;
+}
+
+.menu-item:hover .menu-item-shipin {
+  background-position: 18.5% 31.2%;
+}
+
+.menu-item-gonglue {
+  background-position: 25.9% 37.5%;
+}
+
+.menu-item:hover .menu-item-gonglue {
+  background-position: 18.5% 37.8%;
+}
+
+.menu-item-shequ {
+  background-position: 25.9% 43.8%;
+}
+
+.menu-item:hover .menu-item-shequ {
+  background-position: 18.5% 43.8%;
+}
+
+.menu-item-shangchen {
+  background-position: 25.9% 50.8%;
+}
+
+.menu-item:hover .menu-item-shangchen {
+  background-position: 18.5% 50.8%;
+}
+
+.menu-item-kefu {
+  background-position: 25.9% 56.8%;
+}
+
+.menu-item:hover .menu-item-kefu {
+  background-position: 18.5% 56.8%;
+}
+
+/********** secondary category section ***********/
+.secondary {
+  background-color: #e0e0e0;
+  height: 50px;
+  line-height: 50px;
+}
+
+.secondary_item {
+  display: table-cell;
+  width: 1%;
+}
+.secondary a {
+  color: #070707;
+}
+.secondary .active a{
+  display: inline-block;
+  background-color: #134b9b;
+  border-radius: 1.2em;
+  background-size: contain;
+  width: 74%;
+  height: 35px;
+  line-height: 35px;
+  background-origin: content-box;
+  vertical-align: middle;
+  background-position: 50%;
+  color: #fff;
+}
+
+/********** content iscroll section ***********/
+.content {
+  position: absolute;
+  top: 54px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: auto;
+}
