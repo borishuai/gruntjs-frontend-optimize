@@ -12,7 +12,7 @@ GruntJS进行前端自动化处理。主要有图片的压缩，JS和CSS的合�
 为了最大程度的提高浏览器的加载速度，最好的方法是让浏览器将所有的静态文件都缓存在客户端，这里的缓存是指expire和cache-control的max-age，而不是Last-Modified，因为使用Last-Modified 和 If-Modified-Since还是会发出请求的，只是没有更新就返回304状态码而max-age则是不会发出请求的，而是直接使用本地的缓存。使用缓存的面临的一个比较在的问题是如果文件有更新如果清理缓存或者如果让用户下载最新的文件。一种做法是静态文件加上版本号，例如 style.css?v=1.1。这种做法可以达到清除缓存的目的，但是维护起来相对麻烦，比较版本号没有办法怎么化，没有办法判断文件是否有更新。另外一种做法是对文件内容进行hash，然后将hash值加入到文件名中，例如style.abd1q2.css。这样就很容易进行自动化处理，我们这里使用了yeoman开发的filerev插件。它可以和usemin进行完美的配合。
 
 ## Hash处理后文件名的替换
-对CSS和JS进行压缩合并以及对所有静态资源进行filerev处理后，原来HTML、CSS、JS等静态资源的引用文件名就需要替换成新的文件名了。例如HTML中对CSS和JS的引用，CSS中对图片的引用。我们使用了Yeoman开发的usemin进行替换。它的工作原理是，对需要处理的文件中的静态资源，在指定的文件查找经过filerev处理过的对应文件，如果找到则替换成相应的文件。具体请参考：https://github.com/yeoman/grunt-usemin。
+对CSS和JS进行压缩合并以及对所有静态资源进行filerev处理后，原来HTML、CSS、JS等静态资源的引用文件名就需要替换成新的文件名了。例如HTML中对CSS和JS的引用，CSS中对图片的引用。我们使用了Yeoman开发的usemin进行替换。它的工作原理是，对需要处理的文件中的静态资源，在指定的文件夹中查找经过filerev处理过的对应文件，如果找到则替换成相应的文件。具体请参考：https://github.com/yeoman/grunt-usemin。
 
 ## CDN路径的替换
 开发过程中对所有静态资源的引用都是指向项目自己的domain。如果要使用CDN，则需要将所有静态资源的引用Domain指向CDN的domain。这里使用GruntJS插件cdn来进行全局替换。
